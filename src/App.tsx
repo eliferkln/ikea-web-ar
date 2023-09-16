@@ -28,7 +28,15 @@ function App() {
     return () => unsubscribe();
   }, [user]);
 
-  return <div>{!user ? <Login googleSignIn={googleSignIn} /> : <Home />}</div>;
+  return (
+    <div>
+      {!user ? (
+        <Login googleSignIn={googleSignIn} />
+      ) : (
+        <Home googleSignOut={logOut} />
+      )}
+    </div>
+  );
 }
 
 export default App;

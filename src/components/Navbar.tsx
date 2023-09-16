@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { IPropsNavbar } from "./IProps";
 
-const Navbar: React.FC = () => {
+const Navbar: React.FC<IPropsNavbar> = ({ signOut }) => {
   const [nav, setNav] = useState<boolean>(false);
 
   const handleNav = () => {
@@ -40,7 +41,9 @@ const Navbar: React.FC = () => {
         >
           Contact
         </li>
-        ( )
+        <li className="p-6 text-[#13426ca6] " onClick={signOut}>
+          Sign-Out
+        </li>
       </ul>
       <div
         onClick={handleNav}
@@ -80,6 +83,9 @@ const Navbar: React.FC = () => {
           }
         >
           Contact
+        </li>
+        <li className="p-4 " onClick={signOut}>
+          Sign-Out
         </li>
       </ul>
     </div>
