@@ -13,43 +13,43 @@ const urls: model[] = [
     androidurl: "/assets/ikea1.glb",
     iosurl: "/assets/ikea1.usdz",
     name: "Koltuk",
-    price: "$242",
-    url: "https://www.ikea.com.tr/?gclid=Cj0KCQjw9fqnBhDSARIsAHlcQYTeI-ow3z4UQfur3fMogxjIvff8qMOwkSU5E679BfSb52XQQNPkLa0aAuewEALw_wcB",
+    price: "22.499₺",
+    url: "https://www.ikea.com.tr/urun/applaryd-lejde-gri-siyah-3-lu-kanepe-70506237",
   },
   {
     androidurl: "/assets/ikea2.glb",
     iosurl: "/assets/ikea2.usdz",
     name: "Lamba",
-    price: "579 TL",
+    price: "579₺",
     url: "https://www.ikea.com.tr/urun/tertial-koyu-gri-17-cm-calisma-lambasi-50355395",
   },
   {
-    androidurl: "/assets/ikea1.glb",
-    iosurl: "/assets/ikea1.usdz",
-    name: "Koltuk",
-    price: "$242",
-    url: "https://www.ikea.com.tr/?gclid=Cj0KCQjw9fqnBhDSARIsAHlcQYTeI-ow3z4UQfur3fMogxjIvff8qMOwkSU5E679BfSb52XQQNPkLa0aAuewEALw_wcB",
+    androidurl: "/assets/ikea3.glb",
+    iosurl: "/assets/ikea3.usdz",
+    name: "Şifonyer",
+    price: "5299₺",
+    url: "https://www.ikea.com.tr/urun/hemnes-beyaz-vernik-108x96-cm-3-cekmeceli-sifonyer-80424745",
   },
   {
-    androidurl: "/assets/ikea2.glb",
-    iosurl: "/assets/ikea2.usdz",
-    name: "Lamba",
-    price: "$100",
-    url: "https://www.ikea.com.tr/?gclid=Cj0KCQjw9fqnBhDSARIsAHlcQYTeI-ow3z4UQfur3fMogxjIvff8qMOwkSU5E679BfSb52XQQNPkLa0aAuewEALw_wcB",
+    androidurl: "/assets/ikea4.glb",
+    iosurl: "/assets/ikea4.usdz",
+    name: "Açık Raf Ünitesi",
+    price: "4599₺",
+    url: "https://www.ikea.com.tr/urun/vittsjo-venge-cam-100x36x175-cm-acik-raf-unitesi-20213312",
   },
   {
-    androidurl: "/assets/ikea1.glb",
-    iosurl: "/assets/ikea1.usdz",
-    name: "Koltuk",
-    price: "$242",
-    url: "https://www.ikea.com.tr/?gclid=Cj0KCQjw9fqnBhDSARIsAHlcQYTeI-ow3z4UQfur3fMogxjIvff8qMOwkSU5E679BfSb52XQQNPkLa0aAuewEALw_wcB",
+    androidurl: "/assets/ikea5.glb",
+    iosurl: "/assets/ikea5.usdz",
+    name: "Çalışma Masası",
+    price: "3.399₺",
+    url: "https://www.ikea.com.tr/urun/lagkapten-alex-beyaz-antrasit-120x60-cm-calisma-masasi-99508410",
   },
   {
-    androidurl: "/assets/ikea2.glb",
-    iosurl: "/assets/ikea2.usdz",
-    name: "Lamba",
-    price: "$100",
-    url: "https://www.ikea.com.tr/?gclid=Cj0KCQjw9fqnBhDSARIsAHlcQYTeI-ow3z4UQfur3fMogxjIvff8qMOwkSU5E679BfSb52XQQNPkLa0aAuewEALw_wcB",
+    androidurl: "/assets/ikea6.glb",
+    iosurl: "/assets/ikea6.usdz",
+    name: "Tabure",
+    price: "229₺",
+    url: "https://www.ikea.com.tr/urun/marius-siyah-tabure-10135659",
   },
 ];
 
@@ -77,7 +77,7 @@ const Cards: React.FC = () => {
                 onClick={() => openUrl(model.url)}
                 className="bg-[#3567b980] w-[200px] rounded-md font-medium mx-auto px-6 py-3 hover:text-[#082b64bd] text-white"
               >
-                Buy
+                Satın Al
               </button>
             </div>
           </div>
