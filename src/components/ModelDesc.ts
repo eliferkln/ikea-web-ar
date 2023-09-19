@@ -52,6 +52,29 @@ export const urls: model[] = [
     url: "https://www.ikea.com.tr/urun/marius-siyah-tabure-10135659",
   },
 ];
+export const modelUrls: model[] = [
+  {
+    androidurl: "/assets/ikea2.glb",
+    iosurl: "/assets/ikea2.usdz",
+    name: "Lamba",
+    price: "579₺",
+    url: "https://www.ikea.com.tr/urun/tertial-koyu-gri-17-cm-calisma-lambasi-50355395",
+  },
+  {
+    androidurl: "/assets/ikea3.glb",
+    iosurl: "/assets/ikea3.usdz",
+    name: "Şifonyer",
+    price: "5299₺",
+    url: "https://www.ikea.com.tr/urun/hemnes-beyaz-vernik-108x96-cm-3-cekmeceli-sifonyer-80424745",
+  },
+  {
+    androidurl: "/assets/ikea5.glb",
+    iosurl: "/assets/ikea5.usdz",
+    name: "Sandalye",
+    price: "749₺",
+    url: "https://www.ikea.com.tr/urun/askholmen-acik-kahverengi-katlanabilir-sandalye-50240031",
+  },
+];
 export const slides: slider[] = [
   {
     url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695117324/ikea/ikea/cy24-sath-tr-1_h9mu4a.jpg",

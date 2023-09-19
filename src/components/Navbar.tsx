@@ -41,7 +41,7 @@ const Navbar: React.FC<IPropsNavbar> = ({ signOut }) => {
         >
           Contact
         </li>
-        <li className="p-6 text-[#13426ca6] cursor-pointer" onClick={signOut}>
+        <li className="p-6 text-[#fcd500] cursor-pointer" onClick={signOut}>
           Sign-Out
         </li>
       </ul>

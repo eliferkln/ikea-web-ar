@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import { IPropsHome } from "./IProps";
 import Slider from "../components/Slider";
 import Search from "../components/Search";
-import { model } from "../components/ModelDesc";
+import { model, modelUrls } from "../components/ModelDesc";
 import Experience from "../components/Experience";
 import Drawer from "../components/Drawer";
 
@@ -20,6 +20,7 @@ const Home: React.FC<IPropsHome> = ({ googleSignOut }) => {
       <Cards searchResults={searchResults} />
       <Experience />
       <Drawer />
+      <Cards searchResults={modelUrls} />
       <Footer />
     </div>
   );
