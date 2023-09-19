@@ -12,9 +12,9 @@ const urls: model[] = [
   {
     androidurl: "/assets/ikea1.glb",
     iosurl: "/assets/ikea1.usdz",
-    name: "Koltuk",
-    price: "22.499₺",
-    url: "https://www.ikea.com.tr/urun/applaryd-lejde-gri-siyah-3-lu-kanepe-70506237",
+    name: "Telefon Standı",
+    price: "29.99₺",
+    url: "https://www.ikea.com.tr/urun/bergenes-bambu-telefon-tablet-standi-10457999",
   },
   {
     androidurl: "/assets/ikea2.glb",
@@ -40,9 +40,9 @@ const urls: model[] = [
   {
     androidurl: "/assets/ikea5.glb",
     iosurl: "/assets/ikea5.usdz",
-    name: "Çalışma Masası",
-    price: "3.399₺",
-    url: "https://www.ikea.com.tr/urun/lagkapten-alex-beyaz-antrasit-120x60-cm-calisma-masasi-99508410",
+    name: "Sandalye",
+    price: "749₺",
+    url: "https://www.ikea.com.tr/urun/askholmen-acik-kahverengi-katlanabilir-sandalye-50240031",
   },
   {
     androidurl: "/assets/ikea6.glb",

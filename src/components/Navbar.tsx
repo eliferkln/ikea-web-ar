@@ -17,37 +17,37 @@ const Navbar: React.FC<IPropsNavbar> = ({ signOut }) => {
       <img
         alt=""
         src="/assets/logo.png"
-        className="h-20"
+        className="h-20 cursor-pointer"
         onClick={() => openUrl("https://www.ikea.com.tr/")}
       />
       <ul className="hidden md:flex">
         <li
-          className="p-6 text-[#13426ca6]  "
+          className="p-6 text-[#13426ca6] cursor-pointer  "
           onClick={() => openUrl("https://www.ikea.com.tr/")}
         >
           Home
         </li>
         <li
-          className="p-6 text-[#13426ca6] "
+          className="p-6 text-[#13426ca6] cursor-pointer"
           onClick={() => openUrl(" https://www.ikea.com.tr/hizmetler")}
         >
           About
         </li>
         <li
-          className="p-6 text-[#13426ca6] "
+          className="p-6 text-[#13426ca6] cursor-pointer"
           onClick={() =>
             openUrl("https://www.ikea.com.tr/musteri-hizmetleri/bize-ulasin")
           }
         >
           Contact
         </li>
-        <li className="p-6 text-[#13426ca6] " onClick={signOut}>
+        <li className="p-6 text-[#13426ca6] cursor-pointer" onClick={signOut}>
           Sign-Out
         </li>
       </ul>
       <div
         onClick={handleNav}
-        className="block md:hidden z-10 text-[#13426ca6]"
+        className="block md:hidden z-10 text-[#13426ca6] "
       >
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
@@ -61,30 +61,30 @@ const Navbar: React.FC<IPropsNavbar> = ({ signOut }) => {
         <img
           alt=""
           src="/assets/logo.png"
-          className="w-24 my-4 mx-auto"
+          className="w-24 my-4 mx-auto cursor-pointer"
           onClick={() => openUrl("https://www.ikea.com.tr/")}
         />
         <li
-          className="p-4 border-b border-gray-600"
+          className="p-4 border-b border-gray-600 cursor-pointer"
           onClick={() => openUrl("https://www.ikea.com.tr/")}
         >
           Home
         </li>
         <li
-          className="p-4 border-b border-gray-600"
+          className="p-4 border-b border-gray-600 cursor-pointer"
           onClick={() => openUrl(" https://www.ikea.com.tr/hizmetler")}
         >
           About
         </li>
         <li
-          className="p-4"
+          className="p-4 cursor-pointer"
           onClick={() =>
             openUrl("https://www.ikea.com.tr/musteri-hizmetleri/bize-ulasin")
           }
         >
           Contact
         </li>
-        <li className="p-4 " onClick={signOut}>
+        <li className="p-4  cursor-pointer" onClick={signOut}>
           Sign-Out
         </li>
       </ul>
