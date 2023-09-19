@@ -7,6 +7,7 @@ import Slider from "../components/Slider";
 import Search from "../components/Search";
 import { model } from "../components/ModelDesc";
 import Experience from "../components/Experience";
+import Drawer from "../components/Drawer";
 
 const Home: React.FC<IPropsHome> = ({ googleSignOut }) => {
   const [searchResults, setSearchResults] = useState<model[]>([]);
@@ -18,6 +19,7 @@ const Home: React.FC<IPropsHome> = ({ googleSignOut }) => {
       <Search setSearchResults={setSearchResults} />
       <Cards searchResults={searchResults} />
       <Experience />
+      <Drawer />
       <Footer />
     </div>
   );

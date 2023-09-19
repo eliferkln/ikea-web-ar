@@ -35,17 +35,17 @@ const Footer: React.FC = () => {
           </p>
           <div className="flex justify-between md:w-[50%] my-6">
             <a href="https://www.linkedin.com/company/ikea/">
-              <BiLogoLinkedin size={30} />
+              <BiLogoLinkedin size={30} color="#fcd500" />
             </a>
             <a href="https://www.instagram.com/ikeaturkiye/">
               {" "}
-              <BiLogoInstagram size={30} />
+              <BiLogoInstagram size={30} color="#fcd500" />
             </a>
             <a href="https://twitter.com/IKEATurkiye">
-              <BiLogoTwitter size={30} />
+              <BiLogoTwitter size={30} color="#fcd500" />
             </a>
             <a href="https://www.youtube.com/user/IKEATurkiye">
-              <BiLogoYoutube size={30} />
+              <BiLogoYoutube size={30} color="#fcd500" />
             </a>
           </div>
         </div>
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
         <div className="lg:col-span-1 flex flex-col items-center  mt-6 ">
           <div className="flex flex-col sm:flex-row items-center gap-4 ">
             <input
-              className="p-3 flex w-60 rounded-md text-[#dadada63] border-2 border-[#dadada63] "
+              className="p-3 flex w-60 rounded-md text-[#fcd500] rounded-md border-2 border-[#dadada63] indent-2 p-4 outline-none focus:border-[#3567b980] focus:ring-1 rounded-tl rounded-bl "
               type="email"
               placeholder="Email"
             />
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
           <p>
             Contact me for mail{" "}
             <span
-              className="text-[#13426ca6] px-2 cursor-pointer"
+              className="text-[#fcd500] px-2 cursor-pointer"
               onClick={() =>
                 openUrl("https://www.ikea.com.tr/kisisel-verilerin-korunmasi")
               }

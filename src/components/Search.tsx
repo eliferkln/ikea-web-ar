@@ -14,7 +14,7 @@ const Search: React.FC<IPropsSearch> = ({ setSearchResults }) => {
 
   return (
     <div className="flex  w-full max-w-[1400px]  py-[4rem] px-4 bg-white items-center mx-auto grid md:grid-cols-2  ">
-      <h2 className="text-2xl font-bold   text-[#3567b980] ">
+      <h2 className="text-2xl font-bold   text-[#fcd500] ">
         IKEA ile düzenli evler - Yeni Ürünler
       </h2>
       <div className="flex gap-4">
