@@ -41,9 +41,9 @@ const Navbar: React.FC<IPropsNavbar> = ({ signOut }) => {
         >
           Contact
         </li>
-        <li className="p-6 text-[#fcd500] cursor-pointer" onClick={signOut}>
+        {/* <li className="p-6 text-[#fcd500] cursor-pointer" onClick={signOut}>
           Sign-Out
-        </li>
+        </li> */}
       </ul>
       <div
         onClick={handleNav}
@@ -84,9 +84,9 @@ const Navbar: React.FC<IPropsNavbar> = ({ signOut }) => {
         >
           Contact
         </li>
-        <li className="p-4  cursor-pointer" onClick={signOut}>
+        {/* <li className="p-4  cursor-pointer" onClick={signOut}>
           Sign-Out
-        </li>
+        </li> */}
       </ul>
     </div>
   );

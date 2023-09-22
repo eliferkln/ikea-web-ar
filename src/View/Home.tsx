@@ -19,8 +19,8 @@ const Home: React.FC<IPropsHome> = ({ googleSignOut }) => {
       <Search setSearchResults={setSearchResults} />
       <Cards searchResults={searchResults} />
       <Experience />
-      <Drawer />
-      <Cards searchResults={modelUrls} />
+      {/* <Drawer /> */}
+      {/* <Cards searchResults={modelUrls} /> */}
       <Footer />
     </div>
   );

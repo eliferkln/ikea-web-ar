@@ -28,7 +28,7 @@ function Slider() {
     <div className="max-w-[1440px] mt-[-56px] w-full h-screen mx-auto py-28 px-4 relative group">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className="w-full h-full  bg-center bg-cover duration-500"
+        className="w-full h-full  bg-center bg-cover bg-no-repeat duration-500"
         onClick={() =>
           openUrl("https://www.ikea.com.tr/kategori/tabberas-koleksiyonu")
         }
