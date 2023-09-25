@@ -30,7 +30,7 @@ const Cards: React.FC<IPropsCards> = ({ searchResults }) => {
                 onClick={() => openUrl(model.url)}
                 className="bg-[#3567b980] w-[200px] rounded-md font-medium mx-auto px-6 py-3 hover:text-[#082b64bd] text-white"
               >
-                Satın Al
+                Buy
               </button>
             </div>
           </div>

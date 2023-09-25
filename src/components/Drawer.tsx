@@ -9,15 +9,12 @@ const Drawer = () => {
       <div className="max-w-[1440px] mx-auto grid md:grid-cols-2 gap-8 ">
         <div className="flex flex-col justify-center gap-8">
           <p className="text-[#6f89b45e] font-bold text-2xl ">
-            Yetişkinler için eğlenceli bir koleksiyon
+          A playful collection for grown-ups
           </p>
           <p>
-            Rengarenk yemek hazırlama ürünleri ile pastalarınızı daha lezzetli
-            hale getirmenin tam zamanı. TABBERAS Koleksiyonu içerisinde bulunan
-            yemek hazırlama ürünleri işlevsel olduğu kadar mutfağınıza canlılık
-            da katacak. Spatulanın silikon ucu sayesinde karıştırma kapları
-            içerisinde bulunan harçları rahatlıkla kek kalıplarına
-            dökebilirsiniz.
+          It's the perfect time to make your cakes even more delicious with colorful cooking preparation products.
+          The TABBERAS Collection offers functional cooking preparation items that will not only serve their purpose but also add vibrancy to your kitchen. 
+          Thanks to the silicone tip of the spatula, you can easily pour mixtures from mixing bowls into cake molds.
           </p>
         </div>
         <div className="flex flex-col justify-center items-center">
@@ -27,7 +24,7 @@ const Drawer = () => {
               openUrl("https://www.ikea.com.tr/kategori/tabberas-koleksiyonu")
             }
           >
-            TABBERAS Koleksiyonunu inceleyin
+            See all TABBERAS Collection
           </button>
         </div>
       </div>

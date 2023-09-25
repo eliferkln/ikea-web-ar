@@ -30,8 +30,7 @@ const Footer: React.FC = () => {
             onClick={() => openUrl("https://www.ikea.com.tr/")}
           />
           <p className="py-4">
-            IKEA Aile Kart'ınızı kullanın, her alışverişinizde IKEA Aile Para
-            kazanın, indirimli ürün fırsatlarını ve kampanyaları kaçırmayın.
+          Use your IKEA Family Card on all your purchases to earn IKEA Family Points and take advantage of special discounts and offers.
           </p>
           <div className="flex justify-between md:w-[50%] my-6">
             <a href="https://www.linkedin.com/company/ikea/">

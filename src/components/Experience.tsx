@@ -12,19 +12,15 @@ const Experience = () => {
         <img className="w-[500px] h-[400px] mx-auto my-4" src={url} alt="/" />
         <div className="flex flex-col justify-center">
           <p className="text-[#fcd500] font-bold text-2xl ">
-            Yetişkinler için eğlenceli bir koleksiyon
+          A playful collection for grown-ups
           </p>
           <h1 className="md:text-2xl sm:text-xl text-xl font-bold py-2">
-            Yeni ve eğlenceli TABBERAS Koleksiyonu mutfakta aileniz ile birlikte
-            geçireceğiniz zamanı en üst düzeye çıkarmak için tasarlandı.
+          The new and eclectic TABBERAS collection is designed to maximise the family time in the kitchen.
           </h1>
           <p>
-            Rengarenk yemek hazırlama ürünleri ile pastalarınızı daha lezzetli
-            hale getirmenin tam zamanı. TABBERAS Koleksiyonu içerisinde bulunan
-            yemek hazırlama ürünleri işlevsel olduğu kadar mutfağınıza canlılık
-            da katacak. Spatulanın silikon ucu sayesinde karıştırma kapları
-            içerisinde bulunan harçları rahatlıkla kek kalıplarına
-            dökebilirsiniz.
+          It's time to make your cakes more delicious with colourful preparation products.
+          The preparation products in the TABBERAS Collection will add vibrancy to your kitchen as well as being functional.
+          Thanks to the silicone tip of the turner, you can easily pour the mortars in the mixing bowls into the tins and moulds.
           </p>
           <button
             className="bg-[#6f89b45e] text-white w-[300px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 hover:text-white"
@@ -32,7 +28,7 @@ const Experience = () => {
               openUrl("https://www.ikea.com.tr/kategori/tabberas-koleksiyonu")
             }
           >
-            TABBERAS Koleksiyonunu inceleyin
+            See all TABBERAS Collection
           </button>
         </div>
       </div>
