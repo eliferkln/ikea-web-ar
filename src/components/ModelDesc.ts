@@ -77,22 +77,22 @@ export const modelUrls: model[] = [
 ];
 export const slides: slider[] = [
   {
-    url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695117324/ikea/ikea/cy24-sath-tr-1_h9mu4a.jpg",
+    url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695755953/slider/slider/sath-en_frcayp.jpg",
   },
   {
-    url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695117324/ikea/ikea/nytillverkad-koleksiyonu-tr_vy65tt.jpg",
+    url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695755953/slider/slider/ikeada-yeni-ne-var-eylul-en-01_dmvdnb.jpg",
   },
   {
-    url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695117324/ikea/ikea/yeni-ne-var-eylul-tr_jefdye.jpg",
+    url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695755954/slider/slider/back-to-school-en-01_qbcl66.jpg",
   },
 
   {
-    url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695117324/ikea/ikea/mavinn-koleksiyonu-tr-1_bk8aek.jpg",
+    url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695755953/slider/slider/nytillverkad-koleksiyonu-en-1_ou6hen.jpg",
   },
   {
-    url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695117324/ikea/ikea/tabberas-koleksiyonu-tr-2_xravmg.jpg",
+    url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695755953/slider/slider/mavinn-koleksiyonu-en-2_yinwqa.jpg",
   },
   {
-    url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695117324/ikea/ikea/cy23-b2s-tr-3_qerqbe.jpg",
+    url: "https://res.cloudinary.com/duotxzytv/image/upload/v1695755953/slider/slider/tabberas-koleksiyonu-en-3_rcnt4d.jpg",
   },
 ];
