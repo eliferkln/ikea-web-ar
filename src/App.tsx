@@ -30,11 +30,11 @@ function App() {
 
   return (
     <div>
-      {/* {!user ? (
+      {!user ? (
         <Login googleSignIn={googleSignIn} />
-      ) : ( */}
-      <Home googleSignOut={logOut} />
-      {/* )} */}
+      ) : (
+        <Home googleSignOut={logOut} />
+      )}
     </div>
   );
 }
